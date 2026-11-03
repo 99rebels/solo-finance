@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en-IE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solo Finance: every business receipt, found and matched</title>
+<meta name="description" content="Solo Finance finds every business purchase in your Gmail, matches it to your bank statement and hands your accountant a tidy pack at tax time. For sole traders in Ireland and the UK. Your emails never leave your computer.">
+<meta name="theme-color" content="#0D0E10">
+<meta property="og:title" content="Solo Finance">
+<meta property="og:description" content="Every business receipt in your Gmail, matched to your bank statement and ready for your accountant. Runs in your browser: your emails never leave your computer.">
+<meta property="og:type" content="website">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="Solo Finance home">
+      <span class="brand-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0D0E10" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg></span>
+      Solo Finance
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn btn-primary btn-small" href="https://chromewebstore.google.com/detail/poifdgfdbgmjpblgaogeidddepffcpjp">Add to Chrome</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="locale-pill"><span class="tag tag-neutral">IE · UK</span> For sole traders and freelancers</span>
+        <h1>Every business receipt in your inbox. <span class="soft">Found, matched and ready for your accountant.</span></h1>
+        <p class="lede">Solo Finance reads your Gmail for every purchase, invoice and subscription, matches each one to your bank statement and shows you which payments still have no receipt. <strong>It all runs in your browser. Your emails never leave your computer.</strong></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/poifdgfdbgmjpblgaogeidddepffcpjp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3.5"/><path d="M12 8.5h8.2M8.97 13.75 4.9 6.7M15.03 13.75l-4.1 7.1"/></svg>
+            Add to Chrome, it's free
+          </a>
+          <a class="btn btn-secondary" href="#how">See how it works</a>
+        </div>
+        <p class="hero-note">Free for subscriptions and the last 3 months. €39 for a whole tax year, once.</p>
+      </div>
+
+      <!-- Mock: the full-page view, tax year overview -->
+      <div class="app" role="img" aria-label="Solo Finance overview for tax year 2025: €8,420.16 of business spending, 131 of 143 card payments matched to a receipt, 12 still missing.">
+        <div class="app-bar" aria-hidden="true">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="url">Solo Finance · Overview</span>
+        </div>
+        <div class="app-body" aria-hidden="true">
+          <div class="app-side">
+            <span class="brand"><span class="brand-mark"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0D0E10" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span>Solo Finance</span>
+            <span class="item on">Overview</span>
+            <span class="item">Spending</span>
+            <span class="item">Suppliers</span>
+            <span class="item">Subscriptions</span>
+            <span class="item">Review <span class="count">4</span></span>
+            <span class="item">Statements</span>
+            <span class="item">Tax pack</span>
+          </div>
+          <div class="app-main">
+            <div>
+              <div class="figure-label">Business spending · tax year 2025</div>
+              <div class="figure">€8,420.16</div>
+              <div class="figure-sub">131 receipts · 38 suppliers · 9 subscriptions</div>
+            </div>
+            <div>
+              <div class="meter"><span style="width: 92%"></span></div>
+              <div class="meter-legend"><span>131 of 143 card payments have a receipt</span><span class="num">92%</span></div>
+            </div>
+            <div class="attention">
+              <div class="tile warn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h4"/></svg></div>
+              <div class="grow">
+                <div class="t">12 payments have no receipt yet</div>
+                <div class="s">€486.30 your accountant will ask about</div>
+              </div>
+              <span class="mini-btn">Review</span>
+            </div>
+            <div class="stat-row">
+              <div class="stat"><div class="k">VAT on receipts</div><div class="v">€1,102.40</div></div>
+              <div class="stat"><div class="k">Subscriptions</div><div class="v">€1,486<span class="muted" style="font-size: 12px; font-weight: 500">/yr</span></div></div>
+              <div class="stat"><div class="k">Form 11 due</div><div class="v">18 Nov</div></div>
+            </div>
+            <div class="section-label">Latest purchases <span class="muted">From Gmail</span></div>
+            <div class="list">
+              <div class="row">
+                <div class="tile red">A</div>
+                <div class="body">
+                  <div class="title">Adobe Creative Cloud</div>
+                  <div class="meta">Software · monthly · 3 Dec</div>
+                </div>
+                <span class="tag tag-match"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Matched</span>
+                <div class="amount"><div class="v">€72.57</div></div>
+              </div>
+              <div class="row">
+                <div class="tile blue">R</div>
+                <div class="body">
+                  <div class="title">Ryanair</div>
+                  <div class="meta">Travel · 28 Nov</div>
+                </div>
+                <span class="tag tag-match"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Matched</span>
+                <div class="amount"><div class="v">€89.98</div></div>
+              </div>
+              <div class="row">
+                <div class="tile violet">E</div>
+                <div class="body">
+                  <div class="title">Eir broadband</div>
+                  <div class="meta">Phone &amp; internet · 50% business</div>
+                </div>
+                <span class="tag tag-match"><svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg>Matched</span>
+                <div class="amount"><div class="v">€32.50</div></div>
+              </div>
+              <div class="row">
+                <div class="tile amber">S</div>
+                <div class="body">
+                  <div class="title">SUMUP *HARBOUR CAFE</div>
+                  <div class="meta">On your statement · 19 Nov</div>
+                </div>
+                <span class="tag tag-amber">No receipt</span>
+                <div class="amount"><div class="v">€14.50</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="strip" aria-label="Why it's safe">
+    <div class="wrap">
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>Your emails stay on your computer</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10h18M5 10V20M19 10V20M9 14v3M15 14v3M3 20h18M12 3l9 5H3z"/></svg>No bank login, ever</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg>Read-only Gmail access</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M8 13h8M8 17h5"/></svg>Built for Form 11 and Self Assessment</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="section" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">How it works</span>
+        <h2>Ten minutes, once a year. Or never think about it.</h2>
+        <p>Most receipt apps only catch what you forward from now on. Solo Finance finds the receipts already sitting in your inbox, back to the start of the tax year, then keeps up as new ones arrive.</p>
+      </div>
+      <div class="steps">
+
+        <article class="step">
+          <span class="step-n">1</span>
+          <h3>Connect Gmail</h3>
+          <p>Give read-only access. Your browser reads the receipts, invoices and PDF attachments, and skips the newsletters and promotions.</p>
+          <div class="demo" aria-hidden="true">
+            <div class="progress-card">
+              <div style="display: flex; justify-content: space-between; gap: 8px; font-size: 12px"><span>Reading 412 of 960 emails</span><span class="muted">about 6 min left</span></div>
+              <div class="meter"><span style="width: 43%"></span></div>
+              <div class="muted" style="font-size: 12px; margin-top: 2px">Found so far</div>
+              <div class="found">
+                <span class="tag tag-neutral">Adobe</span><span class="tag tag-neutral">Ryanair</span><span class="tag tag-neutral">Eir</span><span class="tag tag-neutral">Google Workspace</span><span class="tag tag-neutral">Screwfix</span><span class="tag tag-neutral">Bolt</span><span class="tag tag-amber">Canva · Trial</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="step">
+          <span class="step-n">2</span>
+          <h3>Drop in your bank statement</h3>
+          <p>Download a CSV from your bank and drag it in. Every card payment is paired with its receipt, even when the bank calls it something odd.</p>
+          <div class="demo" aria-hidden="true">
+            <div class="statement">
+              <div class="line"><span class="d">03 Dec</span><span class="desc">ADOBE *CREATIVE CLD</span><span class="a">72.57</span><span class="ok"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span></div>
+              <div class="line"><span class="d">28 Nov</span><span class="desc">RYANAIR DUBLIN</span><span class="a">89.98</span><span class="ok"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span></div>
+              <div class="line"><span class="d">24 Nov</span><span class="desc">PADDLE.NET* SETAPP</span><span class="a">11.07</span><span class="ok"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5L20 7"/></svg></span></div>
+              <div class="line"><span class="d">19 Nov</span><span class="desc">SUMUP *HARBOUR CAFE</span><span class="a">14.50</span><span class="tag tag-amber">Missing</span></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="step">
+          <span class="step-n">3</span>
+          <h3>Send your accountant the pack</h3>
+          <p>Spending grouped the way your return asks for it, a zip of every receipt, VAT totals and the short list of what's still missing.</p>
+          <div class="demo" aria-hidden="true">
+            <div class="pack">
+              <div class="line"><span>Materials &amp; cost of sales</span><span>€2,140.30</span></div>
+              <div class="line"><span>Motor &amp; travel</span><span>€1,212.45</span></div>
+              <div class="line"><span>Software &amp; subscriptions</span><span>€1,486.20</span></div>
+              <div class="line"><span>Equipment <span class="muted">(capital allowances)</span></span><span>€1,349.97</span></div>
+              <div class="files">
+                <span class="tag tag-neutral">expenses-2025.csv</span><span class="tag tag-neutral">receipts-2025.zip · 131</span><span class="tag tag-amber">12 missing</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="section" id="features">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">What it does</span>
+        <h2>Everything your accountant asks for in January. Or November.</h2>
+        <p>Built around how sole traders actually spend: a dozen software subscriptions, flights booked on the phone, a monitor from Amazon, a coffee with a client that never sent a receipt.</p>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+          <h3>Every purchase, not just the ones you forwarded</h3>
+          <p>Receipts, invoices, PDF attachments, refunds and credit notes, read from the emails you already have. Order confirmations, shipping notices and promos are left out.</p>
+        </div>
+        <div class="feature">
+          <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7h12M8 12h12M8 17h12"/><path d="m3 7 1 1 2-2M3 12l1 1 2-2"/><circle cx="4" cy="17" r="1"/></svg></span>
+          <h3>Matched to your bank statement</h3>
+          <p>Each card payment is paired with its receipt on amount and date, so <span class="num">PADDLE.NET*</span> and <span class="num">SQ *</span> stop being mysteries. Payments in dollars or sterling are matched after conversion and bank fees.</p>
+        </div>
+        <div class="feature">
+          <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h4"/></svg></span>
+          <h3>The missing receipts list</h3>
+          <p>The payments with no receipt, in one place, before your accountant has to chase you for them. Attach a file, add a note or mark it personal.</p>
+        </div>
+        <div class="feature">
+          <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 3h5v5M21 3l-7 7M8 21H3v-5M3 21l7-7"/></svg></span>
+          <h3>Business or personal, asked once</h3>
+          <p>Tell us once per supplier and every receipt from them follows. Phone and broadband can be part business, so only your share counts.</p>
+        </div>
+        <div class="feature">
+          <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></svg></span>
+          <h3>VAT, sorted on every receipt</h3>
+          <p>VAT read from each receipt and totalled for the year. Software bought from outside the country is flagged for reverse charge, so it doesn't catch you out.</p>
+        </div>
+        <div class="feature">
+          <span class="icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5M12 15V3"/></svg></span>
+          <h3>Ready for your accountant</h3>
+          <p>Grouped under Form 11 headings in Ireland and SA103 in the UK, with equipment listed separately for capital allowances. A spreadsheet, a zip of PDFs, done.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscriptions -->
+  <section class="section" id="subscriptions">
+    <div class="wrap split">
+      <div class="copy">
+        <span class="eyebrow">Subscriptions</span>
+        <h2>And the subscriptions you forgot you pay for.</h2>
+        <p>The same scan finds every recurring charge, business or personal: what it costs, when it renews and whether you still use it. A heads-up arrives before you're charged, not after.</p>
+        <ul class="ticks">
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Reminders before renewals and before free trials turn into charges</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Yearly renewals you'd never remember: domains, insurance, memberships</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Price rises spotted the day the receipt changes</li>
+          <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>The right place to cancel, including App Store and Google Play plans</li>
+        </ul>
+      </div>
+      <div class="cards" aria-hidden="true">
+        <div class="card">
+          <div class="head">
+            <div class="tile warn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <div><div class="t">Canva Pro trial ends tomorrow</div><div class="s">Trial ending</div></div>
+          </div>
+          <div class="note">You'll be charged €12.00 a month from 27 Oct unless you cancel.</div>
+          <div class="actions"><span class="mini-btn cancel">Cancel trial</span><span class="mini-btn">Keep it</span></div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div class="tile green">G</div>
+            <div><div class="t">GoDaddy renews in 7 days</div><div class="s">example.ie · .IE domain · yearly</div></div>
+          </div>
+          <div class="note">€22.16 on 14 Nov. Still using it?</div>
+          <div class="actions"><span class="mini-btn primary">Yes, keep it</span><span class="mini-btn">Show me how to cancel</span></div>
+        </div>
+        <div class="card">
+          <div class="head">
+            <div class="tile blue">D</div>
+            <div><div class="t">Dropbox went up to €11.99</div><div class="s">Price rise · was €9.99 a month</div></div>
+          </div>
+          <div class="note">That's €24 more a year. Your next charge is 2 Dec.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy -->
+  <section class="section" id="privacy">
+    <div class="wrap">
+      <div class="privacy-block">
+        <div class="copy">
+          <span class="eyebrow">Privacy</span>
+          <h2>Your inbox stays yours.</h2>
+          <p>Every serious receipt scanner we've looked at copies your email to its own servers to read it. Solo Finance doesn't have servers for your data. It reads your mail inside Chrome, on your computer, and keeps what it finds there.</p>
+          <p>No account to create. No bank login. Nothing to sell, because we never have it. Disconnect Gmail or delete everything from Settings at any time.</p>
+          <a href="privacy.html">Read the privacy policy →</a>
+        </div>
+        <div class="compare">
+          <div class="side">
+            <h3>Most receipt apps</h3>
+            <div class="flow" aria-label="Your Gmail, then their servers, then stored by them, then shown to you">
+              <span class="node">Your Gmail</span><span>→</span><span class="node risk">Their servers</span><span>→</span><span class="node risk">Stored by them</span><span>→</span><span class="node">You</span>
+            </div>
+            <p>Your emails, receipts and often your bank feed sit in someone else's database.</p>
+          </div>
+          <div class="side us">
+            <h3><span class="brand-mark" style="width: 18px; height: 18px; border-radius: 5px"><svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="#0D0E10" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg></span>Solo Finance</h3>
+            <div class="flow" aria-label="Your Gmail, then your browser, then you">
+              <span class="node">Your Gmail</span><span>→</span><span class="node safe">Your browser</span><span>→</span><span class="node">You</span>
+            </div>
+            <p>We never see your emails, your receipts or your bank statement. There's nowhere for them to leak from.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Pricing</span>
+        <h2>Pay once for the tax year. No subscription.</h2>
+        <p>A tool that finds the subscriptions you forgot about shouldn't become one. Pay for the year you're filing, and nothing renews unless you choose to buy the next one.</p>
+      </div>
+      <div class="plans">
+        <div class="plan">
+          <div class="name">Free</div>
+          <div class="price"><span class="v">€0</span></div>
+          <div class="alt">No card needed</div>
+          <p class="desc">See what's in your inbox and keep your subscriptions in check.</p>
+          <ul>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Every subscription, with reminders and cancel help</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Purchases from the last 3 months</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Match one month of bank statement</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Your full tax year total, before you pay anything</li>
+          </ul>
+          <a class="btn btn-secondary" href="https://chromewebstore.google.com/detail/poifdgfdbgmjpblgaogeidddepffcpjp">Add to Chrome</a>
+        </div>
+        <div class="plan main">
+          <div class="name">Tax year <span class="tag tag-accent">Most popular</span></div>
+          <div class="price"><span class="v">€39</span><span class="s">once</span></div>
+          <div class="alt">£35 in the UK</div>
+          <p class="desc">Everything for one tax year, from first receipt to the pack you send your accountant.</p>
+          <ul>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Every purchase back to the start of the tax year</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Unlimited bank statements and matching</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Accountant pack: spreadsheet, receipts zip, missing list</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>VAT totals and reverse-charge flags</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>New receipts picked up all year</li>
+          </ul>
+          <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/poifdgfdbgmjpblgaogeidddepffcpjp">Start free, upgrade in the app</a>
+        </div>
+        <div class="plan">
+          <div class="name">Catch-up</div>
+          <div class="price"><span class="v">€59</span><span class="s">once</span></div>
+          <div class="alt">£52 in the UK</div>
+          <p class="desc">Filing last year while this one is already running? Get both.</p>
+          <ul>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Everything in Tax year</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>The year you're filing and the current one</li>
+            <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>Two accountant packs</li>
+          </ul>
+          <a class="btn btn-secondary" href="https://chromewebstore.google.com/detail/poifdgfdbgmjpblgaogeidddepffcpjp">Add to Chrome</a>
+        </div>
+      </div>
+      <p class="price-note">Prices include VAT. Payments are handled by our payment provider; your receipts and emails are never part of it.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Questions</span>
+        <h2>Good questions to ask about anything that reads your email.</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Do my emails really never leave my computer?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a">
+            <p>Yes. Solo Finance is a Chrome extension. It asks Google for read-only access, downloads the relevant emails straight into your browser and reads them there. What it finds is stored in Chrome on your computer. We don't run servers that receive your emails, receipts or statements.</p>
+            <p>The only things that touch the internet are Gmail itself, a daily exchange-rate lookup that carries nothing about you, and a licence check if you buy a tax year.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Do I need to give you my bank login?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a"><p>No. You download a statement (CSV) from your bank's website or app and drop it in. It's read on your computer like everything else. No bank feeds, no third party with access to your account.</p></div>
+        </details>
+        <details>
+          <summary>Which banks work?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a"><p>Any bank that lets you download a CSV statement. Solo Finance recognises the formats from AIB, Bank of Ireland, PTSB, Revolut, N26 and Wise in Ireland, and Monzo, Starling, Tide, Barclays, HSBC, Lloyds and NatWest in the UK. For anything else, you tell it which column is the date and which is the amount, once.</p></div>
+        </details>
+        <details>
+          <summary>How does it handle the Irish and UK tax years?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a">
+            <p><strong>Ireland:</strong> the tax year is January to December, and spending is grouped under the Form 11 expense headings. Your return is due by 31 October, or mid-November if you file on ROS.</p>
+            <p><strong>UK:</strong> the tax year runs 6 April to 5 April, and spending is grouped under the SA103 self-employment headings. The spreadsheet imports into Making Tax Digital software, and your Self Assessment is due online by 31 January.</p>
+          </div>
+        </details>
+        <details>
+          <summary>Is this accounting software?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a"><p>No, and it doesn't try to be. It does the part sole traders hate: finding every receipt and proving every payment. Your accountant, or your bookkeeping software, does the rest with what it exports.</p></div>
+        </details>
+        <details>
+          <summary>What about receipts that never came by email?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a"><p>Fuel, shops and trade counters often don't send one. Those payments still show up from your bank statement, on the missing receipts list. Attach a scan or photo from your computer, add a note for your accountant, or mark it personal.</p></div>
+        </details>
+        <details>
+          <summary>Does it work with Outlook?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a"><p>Gmail and Google Workspace for now, including more than one account if your receipts go to different addresses. Outlook is on the list.</p></div>
+        </details>
+        <details>
+          <summary>What happens if I uninstall or change computer?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></summary>
+          <div class="a"><p>Your data lives in Chrome, so uninstalling removes it. Save a backup file from Settings first and restore it anywhere. Your receipts are still in Gmail either way, so a fresh scan rebuilds the purchases on its own.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Closing CTA -->
+  <section class="wrap">
+    <div class="cta">
+      <h2>See this year's receipts in ten minutes.</h2>
+      <p>Free to install. The first scan shows your total for the tax year before you pay anything.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://chromewebstore.google.com/detail/poifdgfdbgmjpblgaogeidddepffcpjp">Add to Chrome, it's free</a>
+        <a class="btn btn-secondary" href="#pricing">See pricing</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <a class="brand" href="./">
+        <span class="brand-mark"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0D0E10" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg></span>
+        Solo Finance
+      </a>
+      <p class="small">Receipts and spending for sole traders in Ireland and the UK. Not affiliated with Revenue or HMRC, and not tax advice.</p>
+    </div>
+    <nav class="footer-links" aria-label="Footer">
+      <a href="#how">How it works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="mailto:hello@example.com">Contact</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
